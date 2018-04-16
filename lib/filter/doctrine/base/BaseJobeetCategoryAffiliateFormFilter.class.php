@@ -5,7 +5,7 @@
  *
  * @package    jobee
  * @subpackage filter
- * @author     Your name here
+ * @author     Walter Devia <walter.devia@outlook.com>
  * @version    SVN: $Id: sfDoctrineFormFilterGeneratedTemplate.php 29570 2010-05-21 14:49:47Z Kris.Wallsmith $
  */
 abstract class BaseJobeetCategoryAffiliateFormFilter extends BaseFormFilterDoctrine

@@ -16,4 +16,17 @@ class JobeetCategoryTable extends Doctrine_Table
     {
         return Doctrine_Core::getTable('JobeetCategory');
     }
+
+    public function getWithJobs()
+    {
+      // This query seems like it don't return categories and jobs
+      // instead it just return categories but the ones that have at minimun
+      // one job non expired
+      $q = $this->createQuery('c')
+        ->leftJoin('c.JobeetJobs j')
+        ->where('j.expires_at > ?', date('Y-m-d H:i:s', time()))
+        ->orderBy('c.name');
+   
+      return $q->execute();
+    }
 }
