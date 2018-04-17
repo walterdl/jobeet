@@ -3,3 +3,9 @@ indexSuccess:
  
 showSuccess:
   stylesheets: [job.css]
+
+newSuccess:
+  stylesheets: [job.css]
+
+editSuccess:
+  stylesheets: [job.css]
