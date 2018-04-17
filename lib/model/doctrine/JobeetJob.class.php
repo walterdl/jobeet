@@ -70,6 +70,18 @@ class JobeetJob extends BaseJobeetJob
     $this->save();
   }
 
+  public function extend()
+  {
+    if (!$this->expiresSoon())
+    {
+      return false;
+    }
+ 
+    $this->setExpiresAt(date('Y-m-d', time() + 86400 * sfConfig::get('app_active_days')));
+    $this->save();
+    return true;
+  }
+
   public function __toString()
   {
     return sprintf('%s at %s (%s)', $this->getPosition(), $this->getCompany(), $this->getLocation());
