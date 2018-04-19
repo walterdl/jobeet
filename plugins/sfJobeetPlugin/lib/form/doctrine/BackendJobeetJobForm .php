@@ -2,9 +2,11 @@
 
 class BackendJobeetJobForm extends JobeetJobForm
 {
-  public function configure()
+  // public function configure()
+  public function setup()
   {
-    parent::configure();
+    // parent::configure();
+    parent::setup();
  
     $this->widgetSchema['logo'] = new sfWidgetFormInputFileEditable(array(
       'label'     => 'Company logo',

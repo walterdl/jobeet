@@ -1,14 +1,14 @@
 <?php
 
 /**
- * JobeetCategoryTranslation filter form.
+ * JobeetJob filter form.
  *
  * @package    jobee
  * @subpackage filter
- * @author     Walter Devia <walter.devia@outlook.com>
+ * @author     Your name here
  * @version    SVN: $Id: sfDoctrineFormFilterTemplate.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
-class JobeetCategoryTranslationFormFilter extends BaseJobeetCategoryTranslationFormFilter
+abstract class PluginJobeetJobFormFilter extends BaseJobeetJobFormFilter
 {
   public function configure()
   {
