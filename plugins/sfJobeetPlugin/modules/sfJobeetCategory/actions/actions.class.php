@@ -8,7 +8,8 @@
  * @author     Walter Devia <walter.devia@outlook.com>
  * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
-class categoryActions extends sfActions
+// class categoryActions extends sfActions
+class sfJobeetCategoryActions extends sfActions
 {
  /**
   * Executes index action

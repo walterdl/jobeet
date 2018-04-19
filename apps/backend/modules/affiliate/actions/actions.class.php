@@ -15,7 +15,10 @@ class affiliateActions extends autoAffiliateActions
 {
   public function executeListActivate()
   {
-    $this->getRoute()->getObject()->activate();
+    // $this->getRoute()->getObject()->activate();
+
+    $affiliate = $this->getRoute()->getObject();
+    $affiliate->activate();
 
     // send an email to the affiliate
     $message = $this->getMailer()->compose(
@@ -30,9 +33,12 @@ Your token is {$affiliate->getToken()}.
 The Jobeet Bot.
 EOF
     );
- 
-    $this->getMailer()->send($message);
- 
+
+    try
+    {
+      $this->getMailer()->send($message);
+    } catch (Exception $e) {}
+    
     $this->redirect('jobeet_affiliate');
   }
  

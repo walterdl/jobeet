@@ -13,5 +13,6 @@ abstract class PluginJobeetCategoryTranslationForm extends BaseJobeetCategoryTra
   // public function configure()
   public function setup()
   {
+    parent::setup();
   }
 }

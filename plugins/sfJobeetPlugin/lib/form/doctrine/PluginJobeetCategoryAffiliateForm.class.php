@@ -13,5 +13,6 @@ abstract class PluginJobeetCategoryAffiliateForm extends BaseJobeetCategoryAffil
   // public function configure()
   public function setup()
   {
+    parent::setup();
   }
 }
