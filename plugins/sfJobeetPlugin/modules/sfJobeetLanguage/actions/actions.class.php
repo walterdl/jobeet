@@ -22,6 +22,8 @@ class sfJobeetLanguageActions extends sfActions
       $this->getUser(),
       array('languages' => array('en', 'fr'))
     );
+
+    $form->disableLocalCSRFProtection();
  
     $form->process($request);
  

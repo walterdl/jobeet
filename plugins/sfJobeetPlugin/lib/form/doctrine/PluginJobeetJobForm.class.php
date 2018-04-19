@@ -14,6 +14,7 @@ abstract class PluginJobeetJobForm extends BaseJobeetJobForm
   public function setup()
   {
     parent::setup();
+    $this->disableLocalCSRFProtection();
     // unset(
     //   $this['created_at'], $this['updated_at'],
     //   $this['expires_at'], $this['is_activated'],

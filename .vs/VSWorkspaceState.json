@@ -1,0 +1,26 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\apps",
+    "\\lib\\vendor",
+    "\\lib\\vendor\\symfony",
+    "\\lib\\vendor\\symfony\\lib",
+    "\\lib\\vendor\\symfony\\lib\\plugins",
+    "\\lib\\vendor\\symfony\\lib\\plugins\\sfPropelPlugin",
+    "\\lib\\vendor\\symfony\\lib\\plugins\\sfPropelPlugin\\test",
+    "\\lib\\vendor\\symfony\\lib\\plugins\\sfPropelPlugin\\test\\functional",
+    "\\lib\\vendor\\symfony\\lib\\plugins\\sfPropelPlugin\\test\\functional\\fixtures",
+    "\\lib\\vendor\\symfony\\lib\\plugins\\sfPropelPlugin\\test\\functional\\fixtures\\apps",
+    "\\lib\\vendor\\symfony\\lib\\plugins\\sfPropelPlugin\\test\\functional\\fixtures\\apps\\frontend",
+    "\\lib\\vendor\\symfony\\lib\\plugins\\sfPropelPlugin\\test\\functional\\fixtures\\apps\\frontend\\config",
+    "\\lib\\vendor\\symfony\\lib\\task",
+    "\\lib\\vendor\\symfony\\lib\\task\\generator",
+    "\\lib\\vendor\\symfony\\lib\\task\\generator\\skeleton",
+    "\\lib\\vendor\\symfony\\lib\\task\\generator\\skeleton\\app",
+    "\\lib\\vendor\\symfony\\lib\\task\\generator\\skeleton\\app\\app",
+    "\\lib\\vendor\\symfony\\lib\\task\\generator\\skeleton\\app\\app\\config",
+    "\\lib\\vendor\\symfony\\lib\\task\\project",
+    "\\lib\\vendor\\symfony\\lib\\task\\project\\validation"
+  ],
+  "PreviewInSolutionExplorer": false
+}
