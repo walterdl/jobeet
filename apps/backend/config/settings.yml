@@ -38,3 +38,6 @@ all:
   .actions:
     login_module:    sfGuardAuth
     login_action:    signin
+
+    error_404_module: custom404
+    error_404_action: index

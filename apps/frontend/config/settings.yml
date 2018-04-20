@@ -46,6 +46,9 @@ all:
       - sfJobeetCategory
       - sfJobeetJob
       - sfJobeetLanguage
+  .actions:
+    error_404_module: custom404
+    error_404_action: index
 
 cache:
   .settings:
